@@ -13,7 +13,7 @@ def getMachines():
     maxRoom = 128
     minMachine = 1
     maxMachine = 20
-    machineName = "c%d-%d";
+    machineName = "c%02d-%02d";
     mList = [];
     for room in range(minRoom, maxRoom + 1):
         for machine in range(minMachine, maxMachine + 1):
