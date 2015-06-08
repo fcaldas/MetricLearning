@@ -1,2 +1,2 @@
 # MetricLearning
-Metric Learning implementation of a Metric Learning optimization algorithm
+Implementation of a Metric Learning optimization algorithm
