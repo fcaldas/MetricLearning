@@ -8,12 +8,10 @@ Created on Mon Jun  8 13:36:53 2015
 import numpy as np
 import os
 
-def getMachines():
-    minRoom = 124
-    maxRoom = 128
+def getMachines(minRoom = 124, maxRoom = 128):
     minMachine = 1
     maxMachine = 20
-    machineName = "c%02d-%02d";
+    machineName = "c%d-%02d";
     mList = [];
     for room in range(minRoom, maxRoom + 1):
         for machine in range(minMachine, maxMachine + 1):
@@ -24,7 +22,7 @@ def getMachines():
     return mList;        
     
 if(__name__ == '__main__'):
-    l = getMachines()
+    l = getMachines(128,128)
     l = "\n".join(l)
     f = open("hosts", "w");
     print l
