@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Find computers that are up on at Télécom ParisTeh network
+Find computers that are up at Télécom ParisTeh network
 Created on Mon Jun  8 13:36:53 2015
 
 @author: fcaldas
